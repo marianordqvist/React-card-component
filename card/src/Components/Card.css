@@ -1,0 +1,52 @@
+body {
+  background-color: aliceblue;
+}
+
+.card-container {
+  max-width: 325px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.4s;
+  animation: ease-in-out;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 15px -1px;
+}
+
+.image-container img {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 1rem;
+}
+h2 {
+  margin: 0;
+  line-height: 1;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: lightblue;
+  color: black;
+}
+
+button:hover {
+  background-color: rgb(186, 229, 243);
+}
